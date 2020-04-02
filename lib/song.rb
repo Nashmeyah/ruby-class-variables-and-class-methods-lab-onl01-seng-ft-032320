@@ -24,6 +24,10 @@ attr_accessor :genre, :artist, :name
     @artist
   end
 
+  def genres
+    @genres
+  end
+
   def artists(artist)
     ARTISTS << artist
   end
