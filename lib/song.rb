@@ -30,7 +30,7 @@ attr_accessor :genre, :artists, :name
   end
 
   def genres(genres)
-    @genre = genres
+    @genres = genres
     @@genres << genres unless @@genres.include?(genres)
   end
 
