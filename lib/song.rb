@@ -13,8 +13,7 @@ attr_accessor :genre, :artist, :name
     @genre = genres
     @@count += 1
     @@genres = []
-    @@artists = []
-    @@artists << artist unless @@artists.include?(artist)
+    @@artist = []
   end
 
   def count
@@ -25,8 +24,8 @@ attr_accessor :genre, :artist, :name
     @artist
   end
 
-  def artist_count
-    @@artists
+  def artist_count(artist)
+    @@artists << artist unless @@artists.include?(artist)
   end
 
   def genre_count(genres)
