@@ -23,7 +23,7 @@ attr_accessor :genre, :artist, :name
     @artist
   end
 
-  def artists
+  def artists(artist)
     list_of_artists = []
     list_of_artists << @artist
     list_of_artists.uniq
