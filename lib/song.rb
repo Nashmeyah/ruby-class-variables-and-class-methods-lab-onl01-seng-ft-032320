@@ -22,7 +22,7 @@ attr_accessor :genre, :artist, :name
 
   def artist
     @artist
-    @@artist << genres unless @@artist.include?(artists)
+    @@artist << genres unless @@artist.include?(artist)
   end
 
   def artist_countl
