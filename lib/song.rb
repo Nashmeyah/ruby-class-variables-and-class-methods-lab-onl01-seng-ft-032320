@@ -28,7 +28,7 @@ attr_accessor :genre, :artist, :name
     @@artists << genres unless @@artists.include?(artist)
   end
 
-  def genres_count
+  def genres_count(genres)
     @@genres << genres unless @@genres.include?(genres)
   end
 
