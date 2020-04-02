@@ -27,6 +27,7 @@ attr_accessor :genre, :artist, :name
     list_of_artists = []
     list_of_artists << artist
     list_of_artists.uniq
+    return list_of_artists
   end
 
   def artist_count(artist)
